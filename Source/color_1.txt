@@ -1,0 +1,175 @@
+{
+	"vesion": "2.0",
+    "enableDirectionalRoadLabel": 1,
+	"roadWidth": {
+		"highway":         [24, 20, 18, 16, 14, 12, 10, 8, 6, 4, 1, 1],
+		"expWay":          [20, 18, 16, 12, 10,  8,  6, 4, 3, 1, 1, 1],
+		"arterial": 	   [20, 18, 16, 12, 10,  8,  6, 4, 3, 1, 1, 1],
+		"localMajor":      [18, 14, 14,  8,  6,  3,  1, 1, 1, 1, 1, 1],
+		"local":   	       [12,  8,  4,  1,  1,  1,  1, 1, 1, 1, 1, 1]
+	},
+    "color": {
+		"buildingAndTmcEdge": {
+			"day": {
+				"building": "c5c1c1",
+				"tmc": "ffffff"
+			},
+			"night": {
+				"building": "324f64",
+				"tmc": "ffffff"
+			}
+		},
+        "polygon": {
+            "day": {
+                "background": "FFEFD5",
+                "fourColorOne": "FFDAB4",
+                "community": "FFDAB4",
+                "onground": "FFDAB4",
+                "fourColorTwo": "FFDAB4",
+                "fourColorThree": "FFDAB4",
+                "school": "FFDAB4",
+                "fourColorFour": "FFDAB4",
+                "hospital": "FFDAB4",
+                "greenArea": "00CD66",
+                "water": "1E90FF",
+                "closedArea": "FFDAB4",
+                "underground": "FFDAB4",
+                "park": "FFDAB4",
+				"building": "faf9f5",
+				"subwayStation": "f89f7c"
+            },
+            "night": {
+                "background": "263743",
+                "fourColorOne": "FFDAB4",
+                "community": "FFDAB4",
+                "onground": "FFDAB4",
+                "fourColorTwo": "FFDAB4",
+                "fourColorThree": "FFDAB4",
+                "school": "15222b",
+                "fourColorFour": "FFDAB4",
+                "hospital": "15222b",
+                "greenArea": "006633",
+                "water": "003366",
+                "closedArea": "FFDAB4",
+                "underground": "FFDAB4",
+                "park": "FFDAB4",
+				"building": "324f64",
+				"subwayStation": "f89f7c"
+            }
+        },
+        "road": {
+			"day": {
+			     "fillColor": {
+						"highway": "EE4000",
+						"expWay": "EE9A00",
+						"localMajor": "FFEC8B",
+						"local": "FFFFF0",
+						"arterial": "EE9A00"
+				},
+			      "edgeColor": {
+						"highway": "00cc00",
+                        "expWay": "878787",
+						"localMajor": "000000",
+						"local": "333333",
+						"arterial": "00CD00"
+				},
+				   "thinColor": {
+						"highway": "7B7194",
+						"expWay": "CD7141",
+						"localMajor": "8c8c00s",
+						"local": "ACA5AC",
+						"arterial": "737500"
+				}
+            },
+			"night": {
+					"fillColor": {
+						"highway": "EE4000",
+						"expWay": "EE9A00",
+						"localMajor": "FFEC8B",
+						"local": "CCCCCC",
+						"arterial": "EE9A00"
+				},
+					"edgeColor": {	
+						"highway": "00cc00",
+						"expWay": "878787",
+						"localMajor": "000000",
+						"local": "333333",
+						"arterial": "00CD00"
+				},
+					"thinColor": {
+						"highway": "8B79AC",
+						"expWay": "6A4831",
+						"localMajor": "6a6e01",
+						"local": "6A6983",
+						"arterial": "525500"
+				}
+            }
+        },
+        "text": {
+            "day": {
+                "normal": "414441",
+                "enhanced": "202020",
+                "whiteOnBlack": "FFFFFF",
+                "island": "414441",
+                "outline": "FFFFFF",
+                "park": "416141",
+                "bubbleForeground": "414441",
+                "village": "734052",
+                "bubbleBackground": "FFFFFF",
+                "building": "414441",
+                "bigRoad": "414441",
+                "smallRoad": "414441",
+                "water": "414441",
+                "blackOnWhite": "414441"
+            },
+            "night": {
+                "normal": "EEEAEE",
+                "enhanced": "EEEEEE",
+                "whiteOnBlack": "FFFFFF",
+                "island": "EEEAEE",
+                "outline": "000000",
+                "park": "EEEAEE",
+                "bubbleForeground": "313031",
+                "village": "EEEAEE",
+                "bubbleBackground": "FFFFFF",
+                "building": "EEEAEE",
+                "bigRoad": "DEF6AC",
+                "smallRoad": "DEF6AC",
+                "water": "EEEAEE",
+                "blackOnWhite": "313031"
+            }
+        },
+        "line": {
+            "day": {
+                "railway": "A4A1A4",
+                "futureRailway": "FFDAB4",
+                "sightSeeing": "8BAECD",
+                "river": "8BAECD",
+                "nationBorder": "737573",
+                "nationBorderUndetermined": "737573",
+                "fastRailway": "FFDAB4",
+                "provinceBorder": "737573",
+                "labelLink": "737573",
+                "provinceBorderInOcean": "9CCE73",
+                "provinceBorderUndetermined": "737573",
+                "provinceBorderUndeterminedInOcean": "FFDAB4",
+                "ferry": "3130FF"
+            },
+            "night": {
+                "railway": "626162",
+                "futureRailway": "FFDAB4",
+                "sightSeeing": "8BAECD",
+                "river": "205994",
+                "nationBorder": "945041",
+                "nationBorderUndetermined": "945041",
+                "fastRailway": "FFDAB4",
+                "provinceBorder": "737573",
+                "labelLink": "FF7918",
+                "provinceBorderInOcean": "9CCE73",
+                "provinceBorderUndetermined": "737573",
+                "provinceBorderUndeterminedInOcean": "FFDAB4",
+                "ferry": "3130FF"
+            }
+        }
+    }
+}
